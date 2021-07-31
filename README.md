@@ -14,13 +14,16 @@ Install the [GitHub CLI tool](https://cli.github.com/) and authenticate with: `g
 
 In the `migrate.sh` script, there are several options at the top of the file.
 
-* `PREFIX_GITHUB` - Prefix the new repository name with this. For example, migrating a repository called 'foo' with a
-  prefix of 'migrated-' would create a repository in GitHub called 'migrated-foo'.
-* `BITBUCKET_USER` - The username (or organisation name) of the Bitbucket user. Example: `district-5`.
-* `GITHUB_USER` - The GitHub organisation name to migrate into. Example: `district-5`.
+* `PREFIX_GITHUB` - Prefix the new repository name with this. 
+  * Example, migrating a repository called `foo` with a prefix of `migrated-` would create a repository in GitHub called
+    `migrated-foo`
+* `BITBUCKET_USER` - The username (or organisation name) of the Bitbucket user.
+  * Example: `district-5`
+* `GITHUB_USER` - The GitHub organisation name to migrate into.
+  * Example: `district-5`
 * `GITHUB_ORGANISATION_ID` - The organisation ID, as returned by the GitHub CLI tool. (See below for getting this).
-* `REPO_NAMES` - The list of repository names to migrate. Just the name, not the full path. Example: 
-  `repo1 repo-2 other-repo`
+* `REPO_NAMES` - The list of repository names to migrate. Just the name, not the full path.
+  * Example: `repo1 repo-2 other-repo`
 
 ## Getting the organisation ID:
 
