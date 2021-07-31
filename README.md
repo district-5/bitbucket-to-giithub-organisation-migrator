@@ -8,7 +8,7 @@ GitHub repository and pushing.
 
 ## Requirements:
 
-Install the [GitHub CLI tool](https://github.com/cli/cli) and authenticate with: `gh auth login`
+Install the [GitHub CLI tool](https://cli.github.com/) and authenticate with: `gh auth login`
 
 ## Options:
 
